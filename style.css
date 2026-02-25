@@ -29,11 +29,30 @@ a {
 .information {
     display: flex;
     flex-direction: column;
+    align-items: center;
 }
 
 .img-links {
     display: flex;
     justify-content: space-between;
+    gap: 40px;
+}
+
+.img-links div {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 10px;
+}
+
+.img-links p {
+    font-weight: bold;
+    font-size: 24px;
+}
+
+.img-links img {
+    border: 3px solid #3882F6;
+    border-radius: 20px;
 }
 
 .left-content-block {
